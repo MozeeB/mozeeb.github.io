@@ -1,301 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel='icon' href='img/favicon.png' type='image/x-icon'/>
-
-  <title>Curriculum vitae - Mujiburrohman</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mujiburrohman - Mobile & SDK Engineer | Android, iOS, Unity, KMP | Pixel Art Portfolio">
+  <meta name="author" content="Mujiburrohman">
+  <link rel="icon" href="img/favicon.png" type="image/x-icon">
+  <title>MUJIB.DEV - Mobile & SDK Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="css/pixel-game.css" rel="stylesheet">
 </head>
+<body>
 
-<body id="page-top">
+  <!-- Stars Background -->
+  <div class="stars-layer" id="stars"></div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Mujiburrohman</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
-      </ul>
+  <!-- ===== HUD NAVBAR ===== -->
+  <nav class="hud">
+    <a class="hud__logo" href="#hero">MUJIB.DEV</a>
+    <div class="hud__stats">
+      <span class="hud__hp-label">HP</span>
+      <div class="hud__hp-bar"><div class="hud__hp-fill"></div></div>
     </div>
+    <button class="hud__menu-btn" aria-label="Toggle menu">MENU</button>
+    <ul class="hud__nav">
+      <li><a class="hud__link active" href="#hero">HOME</a></li>
+      <li><a class="hud__link" href="#quests">QUESTS</a></li>
+      <li><a class="hud__link" href="#skills">SKILLS</a></li>
+      <li><a class="hud__link" href="#inventory">ITEMS</a></li>
+      <li><a class="hud__link" href="#academy">ACADEMY</a></li>
+      <li><a class="hud__link" href="#contact">PORTAL</a></li>
+    </ul>
   </nav>
 
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Mujibur
-          <span class="text-primary">Rohman</span>
-        </h1>
-        <div class="subheading mb-5">Kelet, Keling, Jepara - Jawa Tengah · 082325865550 ·
-          <a href="mailto:mujiburr741@gmail.com">mujiburr741@gmail.com</a>
+  <!-- ===== HERO / TITLE SCREEN ===== -->
+  <section class="hero" id="hero">
+    <!-- Pixel Character Sprite -->
+    <div class="sprite-container">
+      <div class="sprite">
+        <div class="sprite__hair"></div>
+        <div class="sprite__head">
+          <div class="sprite__eyes"></div>
         </div>
-        <p class="lead mb-5">Hello! I'm android developer who likes programming since writing his first ‘hello word’, I was born and raised in Jepara I like design using online editors like Canva, I make mobile applications using several languages such as java, I am a person who has a great sense of curiosity so I participate in many things, especially in the field of technology and also share it.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/mujibur-rohman-06a26b170/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/MozeeB">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="https://twitter.com/mujiburr741">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/mozeeb.5">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </div>
+        <div class="sprite__shirt"></div>
+        <div class="sprite__legs"></div>
       </div>
-    </section>
+      <div class="sprite__shadow"></div>
+    </div>
 
-    <hr class="m-0">
+    <h1 class="hero__name">MUJIBURROHMAN</h1>
+    <p class="hero__title">~ MOBILE &amp; SDK ENGINEER ~</p>
+    <p class="hero__tagline">
+      4+ years crafting SDKs &amp; mobile apps across Android, iOS, Unity &amp; KMP
+      for fintech, banking &amp; game publishing industries
+    </p>
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+    <!-- Social Links -->
+    <div class="hero__social">
+      <a class="social-btn" href="https://www.linkedin.com/in/mozeeb5/" target="_blank" rel="noopener" title="LinkedIn">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a class="social-btn" href="https://github.com/MozeeB" target="_blank" rel="noopener" title="GitHub">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+      </a>
+      <a class="social-btn" href="https://gitlab.com/MozeeB" target="_blank" rel="noopener" title="GitLab">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M23.955 13.587l-1.342-4.135-2.664-8.189a.455.455 0 00-.867 0L16.418 9.45H7.582L4.918 1.263a.455.455 0 00-.867 0L1.387 9.452.045 13.587a.924.924 0 00.331 1.023L12 23.054l11.624-8.443a.92.92 0 00.331-1.024"/></svg>
+      </a>
+      <a class="social-btn" href="https://play.google.com/store/apps/dev?id=7102438950112705615&hl=id" target="_blank" rel="noopener" title="Play Store">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-1.4l2.651 1.535a1.001 1.001 0 010 1.729l-2.244 1.298-2.53-2.53 2.123-2.032zM5.864 2.658L16.8 8.991l-2.302 2.302-8.634-8.635z"/></svg>
+      </a>
+    </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Trainer Android In SUWEC(Surabaya Web Community)</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">February - March</span>
-          </div>
-        </div>
+    <p class="hero__cta">&#9660; PRESS START TO EXPLORE &#9660;</p>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Trainer Android in SMK Wikrama 1 Jepara</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2011 - March 2013</span>
-          </div>
-        </div>
+    <!-- Scenery -->
+    <div class="hero__scenery">
+      <div class="tree" style="left:5%"><div class="tree__top"></div><div class="tree__trunk"></div></div>
+      <div class="tree" style="left:15%"><div class="tree__top"></div><div class="tree__trunk"></div></div>
+      <div class="tree" style="left:35%"><div class="tree__top"></div><div class="tree__trunk"></div></div>
+      <div class="tree" style="left:70%"><div class="tree__top"></div><div class="tree__trunk"></div></div>
+      <div class="tree" style="left:85%"><div class="tree__top"></div><div class="tree__trunk"></div></div>
+      <div class="tree" style="left:92%"><div class="tree__top"></div><div class="tree__trunk"></div></div>
+      <div class="hero__grass"></div>
+      <div class="hero__ground"></div>
+    </div>
+  </section>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Trainer Android in BATUBELING - Jawa Timur</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">July 2010 - December 2011</span>
-          </div>
-        </div>
+  <div class="ground-divider"></div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Web Design Intern</h3>
-            <div class="subheading mb-3">Shout! Media Productions</div>
-            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2008 - June 2010</span>
-          </div>
-        </div>
+  <!-- ===== QUEST LOG (Experience) ===== -->
+  <section class="section" id="quests">
+    <div class="section__header">
+      <div class="section__icon" style="border-color:#f87171;color:#f87171;">&#9876;</div>
+      <h2 class="section__title" style="color:#f87171;">QUEST LOG</h2>
+    </div>
+    <p class="section__subtitle">// Missions completed &amp; in progress</p>
 
-      </div>
+    <div class="quest-timeline">
 
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Matholi'ul Falah Kajen</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">SMK IDN Boarding Schoool</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-android"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-php"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-java"></i>
-          </li>
-        </ul>
-
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
+      <!-- Noctua Games -->
+      <div class="quest fade-in">
+        <div class="quest__dot quest__dot--active"></div>
+        <span class="quest__badge quest__badge--active">&#9733; ACTIVE QUEST</span>
+        <h3 class="quest__company">NOCTUA GAMES</h3>
+        <p class="quest__role">SDK Engineer (Fulltime - Remote)</p>
+        <p class="quest__meta">Jakarta, Indonesia &bull; May 2023 - Present</p>
+        <ul class="quest__rewards">
+          <li>Led end-to-end SDK dev for Unity, Android &amp; iOS &mdash; reduced integration time 30%</li>
+          <li>Designed cross-platform SDK architecture standardizing APIs across Unity, Android &amp; iOS</li>
+          <li>Built &amp; maintained Kotlin Multiplatform (KMP) SDK shared across Android &amp; iOS</li>
+          <li>Implemented offline-first architecture with local persistence &amp; background sync</li>
+          <li>Achieved 99.9% crash-free sessions via Firebase Crashlytics</li>
+          <li>Wrapped AdMob &amp; AppLovin behind unified abstraction &mdash; reduced ad integration effort 40%</li>
+          <li>Built centralized analytics SDK wrapping Adjust, Firebase &amp; Facebook &mdash; reduced bugs 50%</li>
+          <li>Authored comprehensive SDK docs &amp; integration guides &mdash; reduced onboarding time 50%</li>
         </ul>
       </div>
-    </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
+      <!-- Slipp -->
+      <div class="quest fade-in">
+        <div class="quest__dot"></div>
+        <span class="quest__badge quest__badge--complete">&#10003; COMPLETED</span>
+        <h3 class="quest__company">SLIPP</h3>
+        <p class="quest__role">Android Developer (Part-Time)</p>
+        <p class="quest__meta">Jakarta, Indonesia &bull; Nov 2023 - Apr 2024</p>
+        <ul class="quest__rewards">
+          <li>Built feature-rich HR platform from Figma designs &mdash; improved engagement 30%</li>
+          <li>Reduced app load times by 40%, smooth across 95% of Android devices</li>
         </ul>
       </div>
-    </section>
 
-  </div>
+      <!-- PT.Infosys -->
+      <div class="quest fade-in">
+        <div class="quest__dot"></div>
+        <span class="quest__badge quest__badge--complete">&#10003; COMPLETED</span>
+        <h3 class="quest__company">PT.INFOSYS SOLUSI TERPADU</h3>
+        <p class="quest__role">iOS Developer (Fulltime)</p>
+        <p class="quest__meta">Kota Yogyakarta, Indonesia &bull; Aug 2021 - Apr 2023</p>
+        <ul class="quest__rewards">
+          <li>Developed mobile banking features &mdash; improved onboarding speed 50%</li>
+          <li>Refactored legacy codebase &mdash; reduced crashes 30%</li>
+          <li>Optimized app performance &mdash; reduced load times 35%</li>
+          <li>Collaborated in Agile environment &mdash; reduced feature delivery time 20%</li>
+        </ul>
+      </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Modernesia -->
+      <div class="quest fade-in">
+        <div class="quest__dot"></div>
+        <span class="quest__badge quest__badge--complete">&#10003; COMPLETED</span>
+        <h3 class="quest__company">MODERNESIA TEKNOLOGI INFORMATIKA</h3>
+        <p class="quest__role">Android Developer (Freelance)</p>
+        <p class="quest__meta">Jakarta, Indonesia &bull; Aug 2021 - Apr 2022</p>
+        <ul class="quest__rewards">
+          <li>Developed school management app &mdash; improved admin efficiency 40%</li>
+          <li>Debugged &amp; optimized gold purchase app &mdash; reduced transaction failures 30%</li>
+        </ul>
+      </div>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <!-- SICATAT -->
+      <div class="quest fade-in">
+        <div class="quest__dot"></div>
+        <span class="quest__badge quest__badge--complete">&#10003; COMPLETED</span>
+        <h3 class="quest__company">SICATAT</h3>
+        <p class="quest__role">Android Developer (Part-Time)</p>
+        <p class="quest__meta">Kota Yogyakarta, Indonesia &bull; Dec 2020 - Aug 2021</p>
+        <ul class="quest__rewards">
+          <li>Built Android POS app from Figma &mdash; reduced checkout time 50%</li>
+          <li>Implemented MVVM with Kotlin &mdash; 30% faster feature deployment</li>
+          <li>Integrated Koin, Retrofit &amp; RxJava &mdash; improved API efficiency 25%</li>
+          <li>Unit testing with 80%+ code coverage &mdash; reduced production bugs 40%</li>
+        </ul>
+      </div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+      <!-- Bio Multicommerce -->
+      <div class="quest fade-in">
+        <div class="quest__dot"></div>
+        <span class="quest__badge quest__badge--complete">&#10003; COMPLETED</span>
+        <h3 class="quest__company">BIO MULTICOMMERCE</h3>
+        <p class="quest__role">Android Developer (Part-Time)</p>
+        <p class="quest__meta">Kota Yogyakarta, Indonesia &bull; Oct 2019 - Dec 2023</p>
+        <ul class="quest__rewards">
+          <li>Built Bio Shop feature &mdash; increased sales conversion 25%</li>
+          <li>Implemented product search, discount management &amp; order tracking</li>
+          <li>Refined business needs with stakeholders &mdash; boosted retention 15%</li>
+        </ul>
+      </div>
 
+    </div>
+  </section>
+
+  <!-- ===== SKILL TREE ===== -->
+  <section class="section" id="skills">
+    <div class="section__header">
+      <div class="section__icon" style="border-color:#4ade80;color:#4ade80;">&#10022;</div>
+      <h2 class="section__title" style="color:#4ade80;">SKILL TREE</h2>
+    </div>
+    <p class="section__subtitle">// Technologies &amp; abilities unlocked</p>
+
+    <div class="skill-grid">
+
+      <!-- Languages -->
+      <div class="skill-node fade-in" style="--node-color:#a78bfa">
+        <div class="skill-node__header">
+          <div class="skill-node__icon" style="border-color:#a78bfa;color:#a78bfa;">&#9000;</div>
+          <span class="skill-node__name" style="color:#a78bfa;">LANGUAGES</span>
+        </div>
+        <div class="skill-row"><span class="skill-row__label">Kotlin</span><div class="skill-bar"><div class="skill-bar__fill" data-width="95%" style="background:#a78bfa"></div></div><span class="skill-row__level">LV95</span></div>
+        <div class="skill-row"><span class="skill-row__label">Swift</span><div class="skill-bar"><div class="skill-bar__fill" data-width="85%" style="background:#a78bfa"></div></div><span class="skill-row__level">LV85</span></div>
+        <div class="skill-row"><span class="skill-row__label">Java</span><div class="skill-bar"><div class="skill-bar__fill" data-width="80%" style="background:#a78bfa"></div></div><span class="skill-row__level">LV80</span></div>
+        <div class="skill-row"><span class="skill-row__label">C#</span><div class="skill-bar"><div class="skill-bar__fill" data-width="75%" style="background:#a78bfa"></div></div><span class="skill-row__level">LV75</span></div>
+        <div class="skill-row"><span class="skill-row__label">Obj-C</span><div class="skill-bar"><div class="skill-bar__fill" data-width="65%" style="background:#a78bfa"></div></div><span class="skill-row__level">LV65</span></div>
+      </div>
+
+      <!-- Android -->
+      <div class="skill-node fade-in" style="--node-color:#4ade80">
+        <div class="skill-node__header">
+          <div class="skill-node__icon" style="border-color:#4ade80;color:#4ade80;">&#128241;</div>
+          <span class="skill-node__name" style="color:#4ade80;">ANDROID</span>
+        </div>
+        <div class="skill-row"><span class="skill-row__label">Compose</span><div class="skill-bar"><div class="skill-bar__fill" data-width="92%" style="background:#4ade80"></div></div><span class="skill-row__level">LV92</span></div>
+        <div class="skill-row"><span class="skill-row__label">Coroutines</span><div class="skill-bar"><div class="skill-bar__fill" data-width="90%" style="background:#4ade80"></div></div><span class="skill-row__level">LV90</span></div>
+        <div class="skill-row"><span class="skill-row__label">Room</span><div class="skill-bar"><div class="skill-bar__fill" data-width="88%" style="background:#4ade80"></div></div><span class="skill-row__level">LV88</span></div>
+        <div class="skill-row"><span class="skill-row__label">Retrofit</span><div class="skill-bar"><div class="skill-bar__fill" data-width="90%" style="background:#4ade80"></div></div><span class="skill-row__level">LV90</span></div>
+        <div class="skill-row"><span class="skill-row__label">Firebase</span><div class="skill-bar"><div class="skill-bar__fill" data-width="88%" style="background:#4ade80"></div></div><span class="skill-row__level">LV88</span></div>
+      </div>
+
+      <!-- iOS -->
+      <div class="skill-node fade-in" style="--node-color:#f87171">
+        <div class="skill-node__header">
+          <div class="skill-node__icon" style="border-color:#f87171;color:#f87171;">&#127822;</div>
+          <span class="skill-node__name" style="color:#f87171;">iOS</span>
+        </div>
+        <div class="skill-row"><span class="skill-row__label">SwiftUI</span><div class="skill-bar"><div class="skill-bar__fill" data-width="85%" style="background:#f87171"></div></div><span class="skill-row__level">LV85</span></div>
+        <div class="skill-row"><span class="skill-row__label">RxSwift</span><div class="skill-bar"><div class="skill-bar__fill" data-width="80%" style="background:#f87171"></div></div><span class="skill-row__level">LV80</span></div>
+        <div class="skill-row"><span class="skill-row__label">Core Data</span><div class="skill-bar"><div class="skill-bar__fill" data-width="78%" style="background:#f87171"></div></div><span class="skill-row__level">LV78</span></div>
+        <div class="skill-row"><span class="skill-row__label">StoreKit</span><div class="skill-bar"><div class="skill-bar__fill" data-width="75%" style="background:#f87171"></div></div><span class="skill-row__level">LV75</span></div>
+        <div class="skill-row"><span class="skill-row__label">Alamofire</span><div class="skill-bar"><div class="skill-bar__fill" data-width="80%" style="background:#f87171"></div></div><span class="skill-row__level">LV80</span></div>
+      </div>
+
+      <!-- Unity & Cross-Platform -->
+      <div class="skill-node fade-in" style="--node-color:#f59e0b">
+        <div class="skill-node__header">
+          <div class="skill-node__icon" style="border-color:#f59e0b;color:#f59e0b;">&#127918;</div>
+          <span class="skill-node__name" style="color:#f59e0b;">UNITY &amp; CROSS-PLATFORM</span>
+        </div>
+        <div class="skill-row"><span class="skill-row__label">Unity SDK</span><div class="skill-bar"><div class="skill-bar__fill" data-width="85%" style="background:#f59e0b"></div></div><span class="skill-row__level">LV85</span></div>
+        <div class="skill-row"><span class="skill-row__label">KMP</span><div class="skill-bar"><div class="skill-bar__fill" data-width="88%" style="background:#f59e0b"></div></div><span class="skill-row__level">LV88</span></div>
+        <div class="skill-row"><span class="skill-row__label">Flutter</span><div class="skill-bar"><div class="skill-bar__fill" data-width="70%" style="background:#f59e0b"></div></div><span class="skill-row__level">LV70</span></div>
+        <div class="skill-row"><span class="skill-row__label">IL2CPP</span><div class="skill-bar"><div class="skill-bar__fill" data-width="75%" style="background:#f59e0b"></div></div><span class="skill-row__level">LV75</span></div>
+        <div class="skill-row"><span class="skill-row__label">UniTask</span><div class="skill-bar"><div class="skill-bar__fill" data-width="80%" style="background:#f59e0b"></div></div><span class="skill-row__level">LV80</span></div>
+      </div>
+
+      <!-- Architecture -->
+      <div class="skill-node fade-in" style="--node-color:#22d3ee">
+        <div class="skill-node__header">
+          <div class="skill-node__icon" style="border-color:#22d3ee;color:#22d3ee;">&#9881;</div>
+          <span class="skill-node__name" style="color:#22d3ee;">ARCHITECTURE</span>
+        </div>
+        <div class="skill-row"><span class="skill-row__label">MVP / MVI</span><div class="skill-bar"><div class="skill-bar__fill" data-width="90%" style="background:#22d3ee"></div></div><span class="skill-row__level">LV90</span></div>
+        <div class="skill-row"><span class="skill-row__label">VIPER</span><div class="skill-bar"><div class="skill-bar__fill" data-width="82%" style="background:#22d3ee"></div></div><span class="skill-row__level">LV82</span></div>
+        <div class="skill-row"><span class="skill-row__label">SOLID</span><div class="skill-bar"><div class="skill-bar__fill" data-width="90%" style="background:#22d3ee"></div></div><span class="skill-row__level">LV90</span></div>
+        <div class="skill-row"><span class="skill-row__label">DI</span><div class="skill-bar"><div class="skill-bar__fill" data-width="88%" style="background:#22d3ee"></div></div><span class="skill-row__level">LV88</span></div>
+        <div class="skill-row"><span class="skill-row__label">Event-Driven</span><div class="skill-bar"><div class="skill-bar__fill" data-width="85%" style="background:#22d3ee"></div></div><span class="skill-row__level">LV85</span></div>
+      </div>
+
+      <!-- CI/CD & Tools -->
+      <div class="skill-node fade-in" style="--node-color:#e879f9">
+        <div class="skill-node__header">
+          <div class="skill-node__icon" style="border-color:#e879f9;color:#e879f9;">&#128295;</div>
+          <span class="skill-node__name" style="color:#e879f9;">CI/CD &amp; TOOLS</span>
+        </div>
+        <div class="skill-row"><span class="skill-row__label">GitLab CI</span><div class="skill-bar"><div class="skill-bar__fill" data-width="85%" style="background:#e879f9"></div></div><span class="skill-row__level">LV85</span></div>
+        <div class="skill-row"><span class="skill-row__label">Fastlane</span><div class="skill-bar"><div class="skill-bar__fill" data-width="80%" style="background:#e879f9"></div></div><span class="skill-row__level">LV80</span></div>
+        <div class="skill-row"><span class="skill-row__label">Gradle</span><div class="skill-bar"><div class="skill-bar__fill" data-width="90%" style="background:#e879f9"></div></div><span class="skill-row__level">LV90</span></div>
+        <div class="skill-row"><span class="skill-row__label">Claude AI</span><div class="skill-bar"><div class="skill-bar__fill" data-width="85%" style="background:#e879f9"></div></div><span class="skill-row__level">LV85</span></div>
+        <div class="skill-row"><span class="skill-row__label">Xcode</span><div class="skill-bar"><div class="skill-bar__fill" data-width="82%" style="background:#e879f9"></div></div><span class="skill-row__level">LV82</span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== INVENTORY (Projects/Apps) ===== -->
+  <section class="section" id="inventory">
+    <div class="section__header">
+      <div class="section__icon" style="border-color:#f59e0b;color:#f59e0b;">&#127890;</div>
+      <h2 class="section__title" style="color:#f59e0b;">INVENTORY</h2>
+    </div>
+    <p class="section__subtitle">// Projects &amp; apps crafted throughout the journey</p>
+
+    <div class="inventory">
+      <div class="inventory__header">
+        <span class="inventory__label">EQUIPPED ITEMS</span>
+      </div>
+      <div class="inventory__grid">
+
+        <div class="inv-slot fade-in">
+          <span class="inv-slot__rarity inv-slot__rarity--legendary">&#9733; LEGENDARY</span>
+          <div class="inv-slot__icon" style="border-color:#f59e0b;">&#127918;</div>
+          <div class="inv-slot__name">GAME SDK SUITE</div>
+          <div class="inv-slot__desc">Unity, Android &amp; iOS SDKs powering live games at Noctua Games</div>
+        </div>
+
+        <div class="inv-slot fade-in">
+          <span class="inv-slot__rarity inv-slot__rarity--legendary">&#9733; LEGENDARY</span>
+          <div class="inv-slot__icon" style="border-color:#f59e0b;">&#128230;</div>
+          <div class="inv-slot__name">KMP SDK</div>
+          <div class="inv-slot__desc">Kotlin Multiplatform SDK shared across Android &amp; iOS with offline-first architecture</div>
+        </div>
+
+        <div class="inv-slot fade-in">
+          <span class="inv-slot__rarity inv-slot__rarity--epic">EPIC</span>
+          <div class="inv-slot__icon" style="border-color:#a78bfa;">&#127974;</div>
+          <div class="inv-slot__name">MOBILE BANKING</div>
+          <div class="inv-slot__desc">iOS banking app with 100% regulatory compliance at PT.Infosys</div>
+        </div>
+
+        <div class="inv-slot fade-in">
+          <span class="inv-slot__rarity inv-slot__rarity--epic">EPIC</span>
+          <div class="inv-slot__icon" style="border-color:#a78bfa;">&#128101;</div>
+          <div class="inv-slot__name">HR PLATFORM</div>
+          <div class="inv-slot__desc">Feature-rich Android HR app improving engagement 30% at Slipp</div>
+        </div>
+
+        <div class="inv-slot fade-in">
+          <span class="inv-slot__rarity inv-slot__rarity--rare">RARE</span>
+          <div class="inv-slot__icon" style="border-color:#22d3ee;">&#128176;</div>
+          <div class="inv-slot__name">POS SYSTEM</div>
+          <div class="inv-slot__desc">Android POS app with MVVM &mdash; reduced checkout time 50%</div>
+        </div>
+
+        <div class="inv-slot fade-in">
+          <span class="inv-slot__rarity inv-slot__rarity--rare">RARE</span>
+          <div class="inv-slot__icon" style="border-color:#22d3ee;">&#127979;</div>
+          <div class="inv-slot__name">SCHOOL MGMT</div>
+          <div class="inv-slot__desc">Admin app improving efficiency 40% at Modernesia</div>
+        </div>
+
+        <div class="inv-slot fade-in">
+          <span class="inv-slot__rarity inv-slot__rarity--rare">RARE</span>
+          <div class="inv-slot__icon" style="border-color:#22d3ee;">&#128722;</div>
+          <div class="inv-slot__name">BIO SHOP</div>
+          <div class="inv-slot__desc">E-commerce feature boosting sales conversion 25%</div>
+        </div>
+
+        <div class="inv-slot fade-in">
+          <span class="inv-slot__rarity inv-slot__rarity--epic">EPIC</span>
+          <div class="inv-slot__icon" style="border-color:#a78bfa;">&#9654;</div>
+          <div class="inv-slot__name">PLAY STORE</div>
+          <div class="inv-slot__desc">Published apps on Google Play Store</div>
+          <a class="inv-slot__link" href="https://play.google.com/store/apps/dev?id=7102438950112705615&hl=id" target="_blank" rel="noopener">VIEW &#8594;</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACADEMY (Education) ===== -->
+  <section class="section" id="academy">
+    <div class="section__header">
+      <div class="section__icon" style="border-color:#22d3ee;color:#22d3ee;">&#127891;</div>
+      <h2 class="section__title" style="color:#22d3ee;">ACADEMY</h2>
+    </div>
+    <p class="section__subtitle">// Training grounds completed</p>
+
+    <div class="academy-card fade-in">
+      <div class="academy-card__badge">&#127979;</div>
+      <div>
+        <h3 class="academy-card__name">SMK IDN BOARDING SCHOOL</h3>
+        <p class="academy-card__program">Software Engineering</p>
+        <p class="academy-card__year">2018 - 2021</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT PORTAL ===== -->
+  <section class="section" id="contact">
+    <div class="portal fade-in">
+      <h2 class="portal__title">&#11043; WARP PORTAL &#11043;</h2>
+      <p class="portal__sub">// Connect with me across the digital realm</p>
+      <div class="portal__links">
+        <a class="portal__btn" href="mailto:mujiburr741@gmail.com">&#9993; EMAIL</a>
+        <a class="portal__btn" href="https://www.linkedin.com/in/mozeeb5/" target="_blank" rel="noopener">in LINKEDIN</a>
+        <a class="portal__btn" href="https://github.com/MozeeB" target="_blank" rel="noopener">&#8962; GITHUB</a>
+        <a class="portal__btn" href="https://gitlab.com/MozeeB" target="_blank" rel="noopener">&#9670; GITLAB</a>
+        <a class="portal__btn" href="https://play.google.com/store/apps/dev?id=7102438950112705615&hl=id" target="_blank" rel="noopener">&#9654; PLAY STORE</a>
+      </div>
+      <p class="portal__info">Jepara, Indonesia &bull; mujiburr741@gmail.com &bull; +6282325865550</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    CRAFTED WITH PIXELS &amp; PASSION &bull; 2025
+  </footer>
+
+  <script src="js/pixel-game.js"></script>
 </body>
-
 </html>
